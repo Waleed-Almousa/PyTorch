@@ -1,1 +1,11 @@
-README
+This repository contains an machine learning project completed independantly in Spring 2024
+
+The purpous of this project was to develop a neural network that can accurately predict the label for a given image. The dataset used for this project is the Fashion-MNIST dataset. This dataset consists of 60,000 training examples and 10,000 testing examples. Each example is a 28x28 greyscale image of an article of clothing, each associated with a label from 10 classes.
+The final neural network consists of 6 layers, and is able to correctly predict image labels with 81.75% accuracy and an average loss of 0.51
+
+Libraries used for this project: torch, pytorch, and torchvision
+
+Project Specifications can be found in **Project Specifications** 
+Code used to build, train, and evaluate the neural network can be found in **intro_pytorch.py**
+code used to test model can be found in HW6 tester.ipynb
+Link to Fashion-MNIST dataset: https://github.com/zalandoresearch/fashion-mnist.git 
